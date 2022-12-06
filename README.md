@@ -22,7 +22,7 @@
    * Aliaa Ahmed Mohamed
 
 ##### Project Document
-   <br /> Google docs link:
+   <br /> Google docs link:https://drive.google.com/file/d/1qe1qp5e5F4ERMrqCEXwwSWXD6HsaQcM9/view?usp=share_link
 
 ##### Project Video
    <br /> Google drive link:
