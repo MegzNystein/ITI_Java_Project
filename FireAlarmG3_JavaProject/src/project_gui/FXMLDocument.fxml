@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import eu.hansolo.medusa.Gauge?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.TextField?>
+
+
+            <AnchorPane id="AnchorPane" fx:id="A1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="855.0"  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_gui.FXMLDocumentController" styleClass="AnchorPane" stylesheets="@FireAlarmG3_JavaProject.css">
+               <children>
+                  <Gauge id="thermometer" fx:id="thermometer" alert="true" alertMessage="WARNING !!" animated="true" areaTextVisible="true" backgroundPaint="WHITE" borderPaint="#90818100" foregroundPaint="#47313100" gradientBarEnabled="true" layoutX="120.0" layoutY="129.0" lcdDesign="BLACK" lcdFont="LCD" ledVisible="true" maxValue="50.0" mediumTickMarkType="PILL" prefHeight="258.0" prefWidth="255.0" styleClass="thermometer" threshold="25.0" thresholdColor="#ff0000" thresholdVisible="true" title="Temperature" unit="  ̊C" />
+                  <Gauge id="humidity" fx:id="humidity" alert="true" alertMessage="WARNING !!" animated="true" areaTextVisible="true" backgroundPaint="WHITE" borderPaint="#90818100" foregroundPaint="#47313100" gradientBarEnabled="true" layoutX="420" layoutY="129.0" lcdDesign="BLACK" lcdFont="LCD" ledVisible="true" maxValue="90.0" mediumTickMarkType="PILL" prefHeight="258.0" prefWidth="255.0" styleClass="humidity" threshold="50.0" thresholdColor="#ff0000" thresholdVisible="true" title="Humidity" unit="  %" />
+                  
+                  <Text fill="#FFFFFF" layoutX="30.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mohamed Khalid Shahat" wrappingWidth="200">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+                                    <Text fill="#FFFFFF" layoutX="30.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yahya Tarek Ahmed" wrappingWidth="200">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+                                    <Text fill="#FFFFFF" layoutX="30.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abdelrahman Mohamed Sharaf" wrappingWidth="200">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+                                    <Text fill="#FFFFFF" layoutX="30.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esraa Mohamed Mostafa" wrappingWidth="200">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+                  
+                                   <Text fill="#FFFFFF" layoutX="30.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aliaa Ahmed Mohamed" wrappingWidth="200">
+                     <font>
+                        <Font name="Arial" size="14.0" />
+                     </font>
+                  </Text>
+                  
+                  <Button id="history" fx:id="history" layoutX="676.0" layoutY="31.0" mnemonicParsing="false" onAction="#handleButtonHistory" prefHeight="50.0" prefWidth="143.0" styleClass="history" stylesheets="@FireAlarmG3_JavaProject.css" text="HISTORY" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="label" layoutX="629.0" layoutY="311.0" prefHeight="37.0" prefWidth="140.0" textFill="#fcfcfc" />
+                  <Button id="stop" fx:id="stop" layoutX="637.0" layoutY="476.0" mnemonicParsing="false" onAction="#handleButtonStop" prefHeight="71.0" prefWidth="182.0" styleClass="stop" stylesheets="@FireAlarmG3_JavaProject.css" text="STOP" textFill="WHITE">
+                     <font>
+                        <Font name="Calibri Bold" size="30.0" />
+                     </font>
+                  </Button>
+
+                  <AnchorPane id="Warring" fx:id="Alert" layoutX="-2.0" layoutY="10.0" prefHeight="469.0" prefWidth="855.0" styleClass="Alert" stylesheets="@FireAlarmG3_JavaProject.css" visible="false" />
+               </children>
+            </AnchorPane>
+
+
+

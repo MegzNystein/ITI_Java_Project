@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="project_gui.jnlp">
+  <information>
+    <title>project_gui</title>
+    <vendor>Romario</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\Medusa-8.0.jar" size="1463851" download="eager" />
+    <jar href="lib\jSerialComm-2.7.0.jar" size="489794" download="eager" />
+    <jar href="lib\javax.mail.jar" size="659033" download="eager" />
+    <jar href="project_gui.jar" size="3754258" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="project_gui.Project_Gui"  name="project_gui" />
+  <update check="always"/>
+</jnlp>
