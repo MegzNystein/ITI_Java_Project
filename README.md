@@ -10,7 +10,6 @@
    * Project Description
    * Java Program Explanation
    * Arduino Program Explanation
-   * Project Courses
    * Programming Language
    * Technologies
         
@@ -72,9 +71,6 @@
        * data equal '1' There is a fire accident
        * data equal '2' Stop the alarm
 
-##### Project courses:
-   * Java project for Java course
-   * Embedded Systems internship Intake 43
  
 ##### Programming Language: 
    * Java for application
